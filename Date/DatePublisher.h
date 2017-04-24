@@ -15,7 +15,6 @@ public:
 	DatePublisher();
 	virtual ~DatePublisher();
 	bool init();
-	//bool publish();
 	void run(uint32_t number);
 private:
 	Date m_Hello;
